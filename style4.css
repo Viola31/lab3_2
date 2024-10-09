@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.row.top {
+    flex: 0 0 10%;
+}
+
+.row.bottom {
+    flex: 0 0 10%;
+
+}
+
+.block {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:115%;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+
+}
+
+.block-1, .block-3 {
+    background-color: blue;
+    height: 110%;
+    margin: 0;
+}
+
+.block-2, .block-5 {
+    background-color: orange;
+    width: 10%;
+    height: 110%;
+}
+
+.block-4 {
+    background-color: white;
+    color: black;
+    height: 110%;
+}
+.block-2, .block-5 {
+    flex: 1;
+}
+
+.block-4 {
+    flex: 2;
+}

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 750px;
+    width: 750px;
+    font-family: Arial, sans-serif;
+}
+input {
+    float: left;
+    margin-left: 10px;
+    margin-top: 28px;
+    width: 190px;
+    height:40px;
+}
+table {
+    width:1440px;
+    height: 815px;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.header {
+    background-color: yellow;
+    height: 100px;
+    width: 1450px;
+}
+
+
+.blue {
+    background-color: blue;
+    width: 290px;
+}
+
+.red {
+    background-color: red;
+    width: 290px;
+}
+
+.white {
+    background-color: white;
+    width: 290px;
+}
+
+
+.footer {
+    background-color: yellow;
+    height: 100px;
+    width: 1450px;
+}
